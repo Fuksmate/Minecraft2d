@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Minecraft2D</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/fontello.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="stye.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+
+</head>
+
+<body>
+    <div id="main" oncontextmenu="return false;" class="main">
+        <div class="menu">
+            <form name="form" method="post" onsubmit="return CheckForm(this)">
+                <h2>Wymiary</h2>
+                <input type="text" class="value left" id="width" name="pole" placeholder="Wysokość">
+                <input type="text" class="value top" id="height" name="pole" placeholder="Szerokość">
+                <h2>Współrzędne</h2>
+                <input type="text" class="value left" id="positionX" readonly name="pole" placeholder="osX">
+                <input type="text" class="value top" id="positionY" readonly name="pole" placeholder="osY">
+                <h2>Kolor</h2>
+                <input type="text" class="color" id="color" name="pole" placeholder="Kolor(ANG)">
+            </form>
+            <h2>Figury</h2>
+            <div class="fig">
+                <div id="boxSquare" class="button">
+
+                </div>
+                <div id="boxWheel" class="button">
+
+                </div>
+                <div id="boxTriangle"class="button">
+
+                </div>
+
+            </div>
+            <div class="icon">
+                <h2>Ikony</h2>
+
+            </div>
+            <div class="box" id="addBox">Stwórz Blok</div>
+
+        </div>
+
+
+
+
+        <!----- STARE USTAWIENIA
+        <div class="box" id="toSetting"><i class="icon-cog"></i></div>
+   
+    <div id="blackAll">
+        <div class="setting">
+            <div id="boxSquare" class="boxFigure">
+                <i class="icon-check-empty"></i>
+            </div>
+            <div id="boxWheel" class="boxFigure">
+                    <i class="icon-wheelchair"></i>
+            </div>
+            <form name="form" method="post" onsubmit="return CheckForm(this)">
+                <input type="text" class="valueSize" id="width" name="pole"  placeholder="Wysokość" ><br>
+                <input type="text" class="valueSize" id="height" name="pole"  placeholder="Szerokość"><br>
+                <input type="text" class="valueColor" id="color" name="pole"  placeholder="Kolor(ANG)" ><br>
+                
+            </form>
+            <div id="button"> Potwierdzam </div>
+
+        </div>
+    </div>-->
+    </div>
+    <script src="script/main.js"></script>
+    <script src="script/creatDiv.js"></script>
+
+</body>
+
+</html>
